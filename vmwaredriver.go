@@ -8,7 +8,7 @@ package main
  */
 
 import (
-	"github.com/cab105/machine-vmware-unix/vmwaredriver"
+	"github.com/cab105/machine-vmware/vmwaredriver"
 	"github.com/docker/machine/libmachine/drivers/plugin"
 )
 
