@@ -1,0 +1,28 @@
+hash: 0627e06435a45506b5c6e5529f7e9fd9157b349b90e00cabe82277c169881e9f
+updated: 2017-02-22T22:13:39.833325012-08:00
+imports:
+- name: github.com/docker/docker
+  version: a8a31eff10544860d2188dddabdee4d727545796
+  subpackages:
+  - pkg/term
+- name: github.com/docker/machine
+  version: 15fd4c70403bab784d91031af02d9e169ce66412
+  subpackages:
+  - libmachine/drivers
+  - libmachine/drivers/plugin
+  - libmachine/drivers/plugin/localbinary
+  - libmachine/drivers/rpc
+  - libmachine/log
+  - libmachine/mcnflag
+  - libmachine/mcnutils
+  - libmachine/ssh
+  - libmachine/state
+  - libmachine/version
+  - version
+- name: golang.org/x/crypto
+  version: beef0f4390813b96e8e68fd78570396d0f4751fc
+  subpackages:
+  - curve25519
+  - ssh
+  - ssh/terminal
+testImports: []
